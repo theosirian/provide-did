@@ -18,3 +18,6 @@
 	path = provide-go
 	url = https://github.com/theosirian/provide-go
 	branch = feat/did
+[submodule "didkit-go"]
+	path = didkit-go
+	url = https://github.com/spruceid/didkit-go
