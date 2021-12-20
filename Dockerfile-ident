@@ -3,6 +3,7 @@ FROM golang:1.15 AS builder
 RUN mkdir -p /go/src/github.com/provideplatform
 ADD ./ident /go/src/github.com/provideplatform/ident
 ADD ./provide-go /go/src/github.com/provideplatform/provide-go
+ADD ./didkit-go /go/src/github.com/provideplatform/didkit-go
 
 WORKDIR /go/src/github.com/provideplatform/ident
 RUN make build

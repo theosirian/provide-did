@@ -24,12 +24,12 @@ Then, to point the tool to the locally deployed stack, export the following
 environment variables:
 
 ```bash
-$ export NCHAIN_API_HOST=localhost:8080;
-$ export NCHAIN_API_SCHEME=http;
-$ export IDENT_API_HOST=localhost:8081;
-$ export IDENT_API_SCHEME=http;
-$ export VAULT_API_HOST=localhost:8082;
-$ export VAULT_API_SCHEME=http;
+$ export NCHAIN_API_HOST=localhost:8080
+$ export NCHAIN_API_SCHEME=http
+$ export IDENT_API_HOST=localhost:8081
+$ export IDENT_API_SCHEME=http
+$ export VAULT_API_HOST=localhost:8082
+$ export VAULT_API_SCHEME=http
 ```
 
 Finally, use it as you would the default version:
