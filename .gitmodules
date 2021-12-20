@@ -1,0 +1,20 @@
+[submodule "ident"]
+	path = ident
+	url = https://github.com/theosirian/ident
+	branch = feat/did
+[submodule "nchain"]
+	path = nchain
+	url = https://github.com/theosirian/nchain
+	branch = feat/did
+[submodule "vault"]
+	path = vault
+	url = https://github.com/theosirian/vault
+	branch = feat/did
+[submodule "provide-cli"]
+	path = provide-cli
+	url = https://github.com/theosirian/provide-cli
+	branch = feat/did
+[submodule "provide-go"]
+	path = provide-go
+	url = https://github.com/theosirian/provide-go
+	branch = feat/did
